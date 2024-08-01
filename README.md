@@ -24,7 +24,7 @@ V tomto repozitáři najdete:
 - Skript pro stahování inzerátů z Bazoš.cz
 - Skripty pro postprocessing stažených dat
 - Popis datasetu
-- Příklad použití
+- [Příklad použití](bazos_example.ipynb)
 - Odkazy ke stažení
 
 Archiv obsahuje téměř 29 milionů inzerátů v češtině. Každý inzerát obsahuje titulek, cenu, datum uveřejnění, odkaz a kategorii. Kategorie jsou uvedeny v tabulce níže.
@@ -58,7 +58,7 @@ The dataset is split by category, which can be downloaded individually.
 
 ## Notes
 - The source of the data is the RSS feed of Bazoš.cz, which does not contain all information from the post.
-- I removed the "description" column from the dataset because in some cases it contained contact information or other sensitive information.
+- I removed the "description" column from the dataset because in some cases it contained sensitive information.
 - There are two gaps in the data scraped in October 2022 and in the spring of 2024.
 
 ## Privacy and legality
@@ -66,4 +66,4 @@ As far as I know, this is the only publicly available Czech dataset of this type
 
 According to the Bazoš.cz [terms of service](https://www.bazos.cz/podminky.php), the use of web-scrapers is not prohibited. I made sure that my scraping script was using as little requests as possible to not overload the servers.
 
-The data does not contain any columns with any personal information. I removed the "description" column from the dataset because in some cases it contained contact information or other sensitive information. I also removed emails and phone numbers from the advert titles.
+The data does not contain any columns with any personal information. I removed the "description" column from the dataset because in some cases it contained sensitive information. I also removed posts that contained sensitive information in the title.
