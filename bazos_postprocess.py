@@ -102,6 +102,6 @@ for section in sections:
     df = parse_csvs(glob(f"output*/section_{section}*.csv"))
     print(f"Saving section {section}")
     total = total + len(df)
-    df.to_pickle(f"output_merged/section_{section}.pkl.gz")
+    df.to_csv(f"output_merged/section_{section}.csv")
 
 print(f"Exported {total} rows")
