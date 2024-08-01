@@ -1,5 +1,7 @@
 # Bazoš.cz dataset
 
+![Screenshot of the Bazoš.cz front page](bazos.png) ![Example price chart](ps4_pro.png)
+
 This dataset comprises two years' worth of postings from Bazoš.cz, the largest marketplace in the Czech Republic for second-hand goods and various short-term advertisements. 
 
 In this repository, I release:
