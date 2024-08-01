@@ -1,6 +1,7 @@
 # Bazoš.cz dataset
-
-![Screenshot of the Bazoš.cz front page](bazos.png) ![Example price chart](ps4_pro.png)
+<p align="middle">
+  <img src="/ps4_pro.png" width="450" /> 
+</p>
 
 This dataset comprises two years' worth of postings from Bazoš.cz, the largest marketplace in the Czech Republic for second-hand goods and various short-term advertisements. 
 
@@ -8,7 +9,7 @@ In this repository, I release:
 - Python script used for scraping Bazoš.cz
 - Script used for post-processing the scraped data
 - Dataset description
-- Examples of usage
+- [Example of usage](bazos_example.ipynb)
 - Links to download the data.
 
 The dataset contains approx. 29 million short advertisements in Czech with title, price, date, permalink and category. 
